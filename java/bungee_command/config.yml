@@ -1,0 +1,77 @@
+listeners:
+- fallback_server: lobby
+  tab_list: GLOBAL_PING
+  websocket: true
+  texture_size: 16
+  host: 0.0.0.0:1
+  forced_hosts: {}
+  max_players: 60
+  tab_size: 60
+  default_server: lobby
+  force_default_server: true
+  forward_ip: false
+  server_icon: server-icon.png
+  motd1: '&6An Eaglercraft server'
+  allow_motd: true
+  allow_query: true
+  request_motd_cache:
+    online_server_list_results: true
+    online_server_list_trending: true
+    cache_ttl: 7200
+    online_server_list_animation: false
+    online_server_list_portfolios: false
+  ratelimit:
+    motd:
+      period: 30
+      lockout_duration: 1200
+      enable: true
+      limit: 5
+      limit_lockout: 15
+      exceptions: []
+    ip:
+      period: 90
+      lockout_duration: 1200
+      enable: true
+      limit: 60
+      limit_lockout: 80
+      exceptions: []
+    query:
+      period: 90
+      lockout_duration: 1200
+      enable: true
+      limit: 60
+      limit_lockout: 80
+      exceptions: []
+    login:
+      period: 50
+      lockout_duration: 300
+      enable: true
+      limit: 5
+      limit_lockout: 10
+      exceptions: []
+player_limit: -1
+timeout: 30000
+stats: 9090aedc-031f-4713-ae16-b5bb7f9b3913
+servers:
+  lobby:
+    address: localhost:25569
+    restricted: false
+server_name: EaglercraftBungee Server
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.eag.ban
+  - bungeecord.command.eag.banwildcard
+  - bungeecord.command.eag.banip
+  - bungeecord.command.eag.banregex
+  - bungeecord.command.eag.reloadban
+  - bungeecord.command.eag.banned
+  - bungeecord.command.eag.banlist
+  - bungeecord.command.eag.unban
+groups: {}
