@@ -7,3 +7,4 @@ RUN wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | a
 RUN add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 RUN apt-get update && apt-get -y install adoptopenjdk-8-hotspot
 ENTRYPOINT ["/bin/bash", "/app/main.sh"]
+EXPOSE 80

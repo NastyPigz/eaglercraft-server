@@ -13,7 +13,7 @@
 # Java regex syntax: https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
 #
 
-# set this to false to use "/eag-ban" to ban on bungee instead of just "/ban"
+# set this to to true to use "/ban" to ban on bungee instead of "/eag-ban"
 # (most likely needs a restart to take effect)
 replace-bukkit=false
 
@@ -35,6 +35,7 @@ replace-bukkit=false
 # 123.21.43.0/24
 # 2601:1062:69:418:BEEF::10
 # 2601:6090:420::/48
+
 
 [Wildcards]
 

@@ -3,7 +3,7 @@ listeners:
   tab_list: GLOBAL_PING
   websocket: true
   texture_size: 16
-  host: 0.0.0.0:1
+  host: 0.0.0.0:25565
   forced_hosts: {}
   max_players: 60
   tab_size: 60
@@ -15,43 +15,42 @@ listeners:
   allow_motd: true
   allow_query: true
   request_motd_cache:
-    online_server_list_results: true
-    online_server_list_trending: true
     cache_ttl: 7200
     online_server_list_animation: false
+    online_server_list_results: true
+    online_server_list_trending: true
     online_server_list_portfolios: false
   ratelimit:
-    motd:
-      period: 30
-      lockout_duration: 1200
-      enable: true
-      limit: 5
-      limit_lockout: 15
-      exceptions: []
     ip:
-      period: 90
-      lockout_duration: 1200
       enable: true
+      period: 90
       limit: 60
       limit_lockout: 80
-      exceptions: []
-    query:
-      period: 90
       lockout_duration: 1200
-      enable: true
-      limit: 60
-      limit_lockout: 80
       exceptions: []
     login:
-      period: 50
-      lockout_duration: 300
       enable: true
+      period: 50
       limit: 5
       limit_lockout: 10
+      lockout_duration: 300
+      exceptions: []
+    motd:
+      enable: true
+      period: 30
+      limit: 5
+      limit_lockout: 15
+      lockout_duration: 300
+      exceptions: []
+    query:
+      enable: true
+      period: 30
+      limit: 15
+      limit_lockout: 25
+      lockout_duration: 900
       exceptions: []
 player_limit: -1
 timeout: 30000
-stats: 9090aedc-031f-4713-ae16-b5bb7f9b3913
 servers:
   lobby:
     address: localhost:25569
@@ -74,4 +73,5 @@ permissions:
   - bungeecord.command.eag.banned
   - bungeecord.command.eag.banlist
   - bungeecord.command.eag.unban
+  - bungeecord.command.eag.ratelimit
 groups: {}
