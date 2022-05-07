@@ -1,0 +1,35 @@
+timestamps:
+  login: 1651859484765
+  lastteleport: 1651859145577
+  logout: 1651859539460
+  kits:
+    firework: 1651774147378
+    color: 1651774223402
+    notch: 1651773838001
+    dtools: 1651774193595
+    tools: 1651774185777
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 205.14628615613066
+  y: 53.26881496353831
+  z: 199.82877152297993
+  yaw: -53.55005
+  pitch: 18.300001
+lastlocation:
+  world: world
+  x: -120.98364884164701
+  y: 70.0
+  z: 179.82121545602783
+  yaw: 171.3
+  pitch: 16.800001
+nickname: Capitalism
+homes:
+  home:
+    world: world
+    x: 180.0269231659754
+    y: 64.0
+    z: 284.94128126220465
+    yaw: 97.950005
+    pitch: 16.650002
+afk: false

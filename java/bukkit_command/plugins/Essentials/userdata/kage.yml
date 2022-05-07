@@ -1,0 +1,28 @@
+timestamps:
+  login: 1651856007463
+  logout: 1651857619884
+  lastteleport: 1651857584367
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -130.56734449704757
+  y: 95.0
+  z: 294.31449691118075
+  yaw: -89.112854
+  pitch: 27.758762
+logoutlocation:
+  world: world
+  x: -134.9332453533139
+  y: 96.0
+  z: 290.49169360076144
+  yaw: 266.32816
+  pitch: 32.86948
+nickname: Jacob
+homes:
+  home:
+    world: world
+    x: -137.40239474839845
+    y: 96.0
+    z: 291.37166843593377
+    yaw: -138.14864
+    pitch: 48.566685

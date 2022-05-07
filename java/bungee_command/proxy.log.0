@@ -1,0 +1,127 @@
+21:02:50 [INFO] Enabled BungeeCord version unknown
+21:02:51 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+21:02:51 [INFO] Listening websockets on /0.0.0.0:1
+21:02:51 [WARNING] Could not bind to host /0.0.0.0:1
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:511)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1006)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind0(DefaultChannelHandlerContext.java:509)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:495)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:847)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:256)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:335)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:353)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:365)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:750)
+21:02:51 [INFO] Server bans.txt changed, it will be reloaded automatically
+21:02:51 [INFO] Reload complete
+21:03:33 [INFO] Enabled BungeeCord version unknown
+21:03:34 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+21:03:34 [INFO] Listening websockets on /0.0.0.0:1
+21:03:34 [WARNING] Could not bind to host /0.0.0.0:1
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:511)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1006)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind0(DefaultChannelHandlerContext.java:509)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:495)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:847)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:256)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:335)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:353)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:365)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:750)
+21:03:34 [INFO] Server bans.txt changed, it will be reloaded automatically
+21:03:34 [INFO] Reload complete
+21:03:58 [INFO] Enabled BungeeCord version unknown
+21:03:58 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+21:03:58 [INFO] Listening websockets on /0.0.0.0:1
+21:03:58 [WARNING] Could not bind to host /0.0.0.0:1
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:511)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1006)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind0(DefaultChannelHandlerContext.java:509)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:495)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:847)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:256)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:335)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:353)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:365)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:750)
+21:03:58 [INFO] Server bans.txt changed, it will be reloaded automatically
+21:03:58 [INFO] Reload complete
+21:04:48 [INFO] Enabled BungeeCord version unknown
+21:04:49 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+21:04:49 [INFO] Listening websockets on /0.0.0.0:1
+21:04:49 [WARNING] Could not bind to host /0.0.0.0:1
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:511)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1006)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind0(DefaultChannelHandlerContext.java:509)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:495)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:847)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:256)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:335)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:353)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:365)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:750)
+21:04:49 [INFO] Server bans.txt changed, it will be reloaded automatically
+21:04:49 [INFO] Reload complete
+21:04:57 [SEVERE] Exception in thread "main" 
+21:08:43 [INFO] Enabled BungeeCord version unknown
+21:08:44 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+21:08:44 [INFO] Listening websockets on /0.0.0.0:1
+21:08:44 [WARNING] Could not bind to host /0.0.0.0:1
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:511)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1006)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind0(DefaultChannelHandlerContext.java:509)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:495)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:847)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:256)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:335)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:353)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:365)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:750)
+21:08:44 [INFO] Server bans.txt changed, it will be reloaded automatically
+21:08:44 [INFO] Reload complete
+21:10:04 [SEVERE] Exception in thread "main" 

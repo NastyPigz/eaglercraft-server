@@ -1,0 +1,29 @@
+timestamps:
+  login: 1651856007478
+  lastteleport: 1651857595080
+  logout: 1651857593875
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -100.5392495897213
+  y: 72.0
+  z: -54.70211655045818
+  yaw: -13.950002
+  pitch: 79.95
+logoutlocation:
+  world: world
+  x: -135.5
+  y: 96.0
+  z: 290.5
+  yaw: -272.05237
+  pitch: 28.20001
+afk: false
+nickname: scott
+homes:
+  home:
+    world: world
+    x: -135.39422307690214
+    y: 96.0
+    z: 290.9917034752049
+    yaw: -267.25238
+    pitch: 33.00001
