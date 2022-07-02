@@ -61,6 +61,11 @@ kill-mobs:
    mob-filter:
         - Villager
         - Wolf
+        - SnowMan
+        - Cow
+        # - Chicken
+        - Sheep
+        - Pig
   
 #This takes care of mob spawners
 mobspawner:

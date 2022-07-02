@@ -1,0 +1,109 @@
+# PermissionsBukkit configuration file
+# 
+# A permission node is a string like 'permissions.build', usually starting
+# with the name of the plugin. Refer to a plugin's documentation for what
+# permissions it cares about. Each node should be followed by true to grant
+# that permission or false to revoke it, as in 'permissions.build: true'.
+# Some plugins provide permission nodes that map to a group of permissions -
+# for example, PermissionsBukkit has 'permissions.*', which automatically
+# grants all admin permissions. You can also specify false for permissions
+# of this type.
+# 
+# Users inherit permissions from the groups they are a part of. If a user is
+# not specified here, or does not have a 'groups' node, they will be in the
+# group 'default'. Permissions for individual users may also be specified by
+# using a 'permissions' node with a list of permission nodes, which will
+# override their group permissions. World permissions may be assigned to
+# users with a 'worlds:' entry.
+# 
+# Groups can be assigned to players and all their permissions will also be
+# assigned to those players. Groups can also inherit permissions from other
+# groups. Like user permissions, groups may override the permissions of their
+# parent group(s). Unlike users, groups do NOT automatically inherit from
+# default. World permissions may be assigned to groups with a 'worlds:' entry.
+users:
+  CapitalismTest:
+    permissions:
+      lagg.gc: true
+    groups:
+    - default
+  yeeyeeman:
+    groups:
+    - lagger
+groups:
+  default:
+    permissions:
+      lagg.gc: true
+      permissions.*: true
+      essentials.gc: true
+      essentials.afk: true
+      essentials.afk.auto: true
+      essentials.back: true
+      essentials.back.ondeath: true
+      essentials.build: true
+      essentials.chat.color: true
+      essentials.chat.format: true
+      essentials.chat.shout: true
+      essentials.chat.question: true
+      essentials.depth: true
+      essentials.delhome: true
+      essentials.enderchest: true
+      essentials.getpos: true
+      essentials.geoip.show: true
+      essentials.help: true
+      essentials.home: true
+      essentials.me: true
+      essentials.msg: true
+      essentials.msg.color: true
+      essentials.nick: true
+      essentials.near: true
+      essentials.protect: true
+      essentials.r: true
+      essentials.rules: true
+      essentials.realname: true
+      essentials.sethome: true
+      essentials.signs.create.protection: true
+      essentials.signs.create.trade: true
+      essentials.signs.break.protection: true
+      essentials.signs.break.trade: true
+      essentials.signs.use.balance: true
+      essentials.signs.use.buy: true
+      essentials.signs.use.disposal: true
+      essentials.signs.use.enchant: true
+      essentials.signs.use.free: true
+      essentials.signs.use.gamemode: true
+      essentials.signs.use.heal: true
+      essentials.signs.use.info: true
+      essentials.signs.use.kit: true
+      essentials.signs.use.mail: true
+      essentials.signs.use.protection: true
+      essentials.signs.use.repair: true
+      essentials.signs.use.sell: true
+      essentials.signs.use.time: true
+      essentials.signs.use.trade: true
+      essentials.signs.use.warp: true
+      essentials.signs.use.weather: true
+      essentials.spawn: true
+      essentials.suicide: true
+      essentials.tpa: true
+      essentials.tpaccept: true
+      essentials.tpahere: true
+      essentials.tpdeny: true
+      essentials.warp: true
+      essentials.warp.list: true
+      essentials.world: true
+      essentials.kits.jungle: true
+      essentials.hat: true
+  admin:
+    permissions:
+      permissions.*: true
+    inheritance:
+    - user
+  lagger:
+    permissions:
+      lagg.gc: true
+    inheritance:
+    - default
+messages:
+  build: '&cYou do not have permission to build here.'
+debug: false

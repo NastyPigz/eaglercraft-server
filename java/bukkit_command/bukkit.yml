@@ -15,15 +15,15 @@ settings:
   deprecated-verbose: default
   shutdown-message: Server closed
 spawn-limits:
-  monsters: 100
-  animals: 50
-  water-animals: 5
+  monsters: 75
+  animals: 100
+  water-animals: 25
   ambient: 5
 chunk-gc:
   period-in-ticks: 600
   load-threshold: 0
 ticks-per:
-  animal-spawns: 40
+  animal-spawns: 30
   monster-spawns: 10
   autosave: 0
 auto-updater:

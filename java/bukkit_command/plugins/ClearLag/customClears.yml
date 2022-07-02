@@ -7,13 +7,12 @@ run:
     - neverClear_world
     clear-list:
     - Villager
-  mypvpcleaner:
-    interval: 0
-    limit: 0
+  eggcleaner:
+    interval: 60000
+    limit: 100
     broadcast: true
-    broadcastmsg: '&6[PVP-Cleaner] &3Cleared +RemoveAmount items!'
+    broadcastmsg: '&6[Egg-Cleaner] &3Cleared +RemoveAmount items!'
     world-filter:
     - world_end
     clear-list:
-    - Arrow
-    - Item
+    - Chicken
