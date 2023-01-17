@@ -1,0 +1,31 @@
+timestamps:
+  login: 1654015854504
+  logout: 1653669516569
+  lastteleport: 1654015863631
+  kits:
+    jungle: 1653412130588
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -88.73299069772209
+  y: 71.0
+  z: 208.70942118094345
+  yaw: -18.547384
+  pitch: 90.0
+logoutlocation:
+  world: world
+  x: -124.82153833646979
+  y: 65.0
+  z: 132.7400590360919
+  yaw: 199.71942
+  pitch: 49.844364
+nickname: Jacob
+homes:
+  home:
+    world: world
+    x: -137.40239474839845
+    y: 96.0
+    z: 291.37166843593377
+    yaw: -138.14864
+    pitch: 48.566685
+afk: false

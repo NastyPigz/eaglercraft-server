@@ -1,0 +1,29 @@
+timestamps:
+  login: 1652285437910
+  lastteleport: 1652111823794
+  logout: 1652285911519
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -552.7376744731259
+  y: 85.0
+  z: 278.5832658544572
+  yaw: -151.38477
+  pitch: 20.59903
+homes:
+  home:
+    world: world
+    x: -114.45444935710508
+    y: 82.0
+    z: 285.34001290139406
+    yaw: 158.41182
+    pitch: -28.429398
+logoutlocation:
+  world: world
+  x: -119.2960368045688
+  y: 84.0
+  z: 270.61958119307343
+  yaw: -64.185425
+  pitch: 79.47792
+nickname: Afnan
+afk: false

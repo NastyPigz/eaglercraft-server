@@ -1,0 +1,30 @@
+timestamps:
+  login: 1653581620825
+  lastteleport: 1653581631128
+  logout: 1653581710740
+  kits:
+    jungle: 1652199715640
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -116.5
+  y: 82.0
+  z: 287.5
+  yaw: -233.4737
+  pitch: 71.01434
+homes:
+  home:
+    world: world
+    x: -115.69999998807907
+    y: 82.0
+    z: 286.5181774650242
+    yaw: -233.4737
+    pitch: 71.01434
+nickname: Skylar
+logoutlocation:
+  world: world
+  x: -119.49427069011581
+  y: 82.0
+  z: 290.37062102999613
+  yaw: -190.53864
+  pitch: 30.083786

@@ -1,0 +1,34 @@
+timestamps:
+  login: 1656432422513
+  lastteleport: 1656432431401
+  logout: 1656432429653
+  kits:
+    jungle: 1653430582928
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -39.593606454375674
+  y: 64.0
+  z: 127.8163029713875
+  yaw: 61.350033
+  pitch: 27.187502
+logoutlocation:
+  world: world
+  x: -1163.5
+  y: 35.0
+  z: 459.5
+  yaw: 254.49376
+  pitch: 29.549995
+homes:
+  home:
+    world: world
+    x: -1163.5227863977557
+    y: 35.0
+    z: 459.24964695758405
+    yaw: 254.49376
+    pitch: 29.099995
+nickname: Ben
+afk: false
+powertools:
+  '7':
+  - hat

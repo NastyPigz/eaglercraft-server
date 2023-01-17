@@ -3,7 +3,7 @@ listeners:
   tab_list: GLOBAL_PING
   websocket: true
   texture_size: 16
-  host: 0.0.0.0:14993
+  host: 0.0.0.0:1
   forced_hosts: {}
   max_players: 60
   tab_size: 60

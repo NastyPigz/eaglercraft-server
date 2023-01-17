@@ -1,0 +1,19 @@
+timestamps:
+  login: 1652803694744
+  logout: 1652804024474
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -126.42604539992685
+  y: 62.0
+  z: 106.07474422290453
+  yaw: -196.20001
+  pitch: -7.350001
+nickname: slim_jim
+logoutlocation:
+  world: world
+  x: -99.0
+  y: 64.0
+  z: 162.0
+  yaw: -6.0000005
+  pitch: -9.000001

@@ -1,0 +1,21 @@
+timestamps:
+  login: 1652801250690
+  logout: 1652801476489
+  lastteleport: 1652285506393
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -161.8020800791287
+  y: 100.0
+  z: 27.69999998807907
+  yaw: 205.05028
+  pitch: 30.599995
+logoutlocation:
+  world: world
+  x: -96.28139269034384
+  y: 64.0
+  z: 160.16219398706983
+  yaw: 97.29376
+  pitch: 32.999996
+afk: false
+nickname: simon
