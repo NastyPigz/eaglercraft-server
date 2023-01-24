@@ -1,0 +1,23 @@
+lastAccountName: Capitalism
+timestamps:
+  login: 1674517633268
+  logout: 1674517811763
+  lastteleport: 1674255566949
+  kits:
+    firework: 1674200690028
+ipAddress: 142.127.6.149
+logoutlocation:
+  world: world
+  x: -91.3568605537051
+  y: 64.0
+  z: 162.3972300834811
+  yaw: -30.900002
+  pitch: -4.3500004
+lastlocation:
+  world: world
+  x: -92.9686855360996
+  y: 64.0
+  z: 159.96224675292854
+  yaw: -76.80001
+  pitch: 15.000001
+afk: false

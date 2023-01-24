@@ -31,20 +31,20 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
+stats: 5d3a5fbb-18c8-4574-9e69-d2f8a614454e
 player_limit: -1
-prevent_proxy_connections: false
 ip_forward: true
 groups: {}
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-stats: 5d3a5fbb-18c8-4574-9e69-d2f8a614454e
+prevent_proxy_connections: false
 online_mode: false
 forge_support: true
 disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another Waterfall - Forced Host'
+    motd: '&6Rebels SMP'
     address: localhost:25565
     restricted: false

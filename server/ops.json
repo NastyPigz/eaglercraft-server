@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "c1c35f7a-5ec0-3b98-8643-24e1c8ea3f47",
+    "name": "Capitalism",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d17b337d-840f-3135-908b-4878e994f392",
+    "name": "jndi_ldap",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,30 @@
+lastAccountName: test
+timestamps:
+  login: 1674251022346
+  lastteleport: 1674251344144
+  logout: 1674251641457
+  kits:
+    firework: 1674201159199
+ipAddress: 142.180.144.22
+lastlocation:
+  world: world
+  x: 1869.300000011921
+  y: 73.7531999805212
+  z: 2080.983294773782
+  yaw: 173.55005
+  pitch: 22.35
+logoutlocation:
+  world: world
+  x: -50.018569240165775
+  y: 66.0
+  z: 106.4606492954743
+  yaw: 52.350006
+  pitch: 36.9
+homes:
+  home:
+    world: world
+    x: -84.82138482716668
+    y: 69.0
+    z: 105.64056420185666
+    yaw: 207.30005
+    pitch: 14.100009

@@ -1,64 +1,24 @@
-[02:04:33] [main/INFO]: Using mbed TLS based native cipher.
-[02:04:33] [main/INFO]: Using zlib based native compressor.
-[02:04:33] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510
-[02:04:34] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[02:04:34] [main/INFO]: Epoll is working, utilising it!
-[02:04:34] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[02:04:34] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[02:04:34] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[02:04:34] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[02:04:34] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[02:04:34] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[02:04:35] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:35] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:35] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:35] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:35] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:35] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:35] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[02:04:36] [main/WARN] [io.netty.util.internal.MacAddressUtil]: Failed to find a usable hardware address from the network interfaces; using random bytes: 27:e1:df:b1:b4:41:34:28
-[02:04:41] [main/WARN] [EaglercraftXBungee]: Profile load timed out
-[02:04:41] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.4 by lax1dude
-[02:04:41] [main/WARN]: Forced host server pvp is not defined
-[02:04:41] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:41] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:41] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:41] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:41] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:41] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
-[02:04:41] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[02:04:42] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:25643
-[02:04:42] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[02:04:42] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.4 by lax1dude
-[02:04:43] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25642
-[02:04:44] [Skin Download Thread #0/ERROR] [EaglercraftXBungee]: Exception loading vanilla default profile!
-java.io.IOException: Connection failed
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.skins.BinaryHttpClient$NettyHttpChannelFutureListener.operationComplete(BinaryHttpClient.java:103) ~[?:?]
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.skins.BinaryHttpClient$NettyHttpChannelFutureListener.operationComplete(BinaryHttpClient.java:1) ~[?:?]
-	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe$2.run(AbstractEpollChannel.java:614) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:406) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510]
-	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_352]
-[02:05:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/142.127.4.139:11014]: Connected via websocket
-[02:05:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/142.127.4.139:11014]: Origin header is https://free-cdn.pages.dev
-[02:05:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/142.127.4.139:11014]: Logged in as 'Capitalism'
-[02:05:30] [Netty Worker IO Thread #1/INFO]: [/142.127.4.139:11014|Capitalism] -> UpstreamBridge has connected
-[02:05:30] [Netty Worker IO Thread #1/WARN]: Event LoginEvent(cancelled=false, cancelReasonComponents=null, loginResult=null, connection=[/142.127.4.139:11014|Capitalism] <-> InitialHandler) took 380ms to process!
-[02:05:30] [Netty Worker IO Thread #1/WARN]: Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[/142.127.4.139:11014|Capitalism] <-> InitialHandler) took 455ms to process!
-[02:05:30] [Netty Worker IO Thread #1/INFO]: [Capitalism|/142.127.4.139:11014] <-> ServerConnector [lobby] has connected
-[02:06:18] [Netty Worker IO Thread #1/INFO]: [/142.127.4.139:11014|Capitalism] -> UpstreamBridge has disconnected
-[02:06:18] [Netty Worker IO Thread #1/INFO]: [Capitalism] disconnected with: Proxy lost connection to server.
-[02:06:18] [Netty Worker IO Thread #1/INFO]: [/142.127.4.139:11014|Capitalism] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:14:29] [Netty Worker IO Thread #0/INFO]: [/35.175.255.69:51164] <-> InitialHandler has pinged
+[00:23:05] [Netty Worker IO Thread #1/INFO]: [/54.174.234.205:39546] <-> InitialHandler has pinged
+[00:23:08] [Netty Worker IO Thread #0/INFO]: [/54.174.234.205:40142] <-> InitialHandler has pinged
+[00:41:55] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: [/142.127.6.149:28978]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.query.MOTDQueryHandler
+[00:42:41] [Netty Worker IO Thread #0/INFO]: [/143.244.49.7:38524] <-> InitialHandler has pinged
+[00:42:53] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: [/142.127.6.149:29108]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.query.MOTDQueryHandler
+[01:12:01] [Netty Worker IO Thread #0/INFO]: [/143.244.49.7:34924] <-> InitialHandler has pinged
+[01:19:09] [Netty Worker IO Thread #1/INFO]: [/18.205.115.199:36088] <-> InitialHandler has pinged
+[01:26:13] [Netty Worker IO Thread #0/INFO]: [/3.82.28.40:48620] <-> InitialHandler has pinged
+[01:29:54] [Netty Worker IO Thread #1/INFO]: [/34.239.172.51:40142] <-> InitialHandler has pinged
+[01:57:27] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: [/142.127.6.149:29080]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.query.MOTDQueryHandler
+[02:08:33] [Netty Worker IO Thread #1/INFO]: [/23.20.158.2:51182] <-> InitialHandler has pinged
+[02:15:36] [Netty Worker IO Thread #0/INFO]: [/174.91.101.230:55787] <-> InitialHandler has pinged
+[02:19:40] [Netty Worker IO Thread #1/INFO]: [/107.20.86.214:48772] <-> InitialHandler has pinged
+[02:22:26] [Netty Worker IO Thread #0/INFO]: [/35.174.156.215:51314] <-> InitialHandler has pinged
+[02:40:18] [Netty Worker IO Thread #1/INFO]: [/54.159.69.83:43228] <-> InitialHandler has pinged
+[02:40:26] [Netty Worker IO Thread #0/INFO]: [/44.204.206.65:46050] <-> InitialHandler has pinged
+[02:49:35] [Netty Worker IO Thread #1/INFO]: [/3.239.165.206:58442] <-> InitialHandler has pinged
+[03:05:47] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: [/142.127.6.149:29166]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.query.MOTDQueryHandler
+[03:08:45] [Netty Worker IO Thread #1/INFO]: [/34.205.172.241:42818] <-> InitialHandler has pinged
+[03:09:11] [Netty Worker IO Thread #0/INFO]: [/3.89.162.114:54116] <-> InitialHandler has pinged
+[03:13:04] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: [/142.127.6.149:29074]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.query.MOTDQueryHandler
+[03:16:09] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: [/142.127.6.149:29054]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.query.MOTDQueryHandler
+[03:18:38] [Netty Worker IO Thread #1/INFO]: [/34.205.172.241:35000] <-> InitialHandler has pinged

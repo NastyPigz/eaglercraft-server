@@ -1,0 +1,23 @@
+lastAccountName: jndi_ldap
+timestamps:
+  login: 1674272122049
+  logout: 1674272136301
+  kits:
+    notch: 1674091628417
+    dtools: 1674091707643
+  lastteleport: 1674183716646
+ipAddress: 142.127.6.149
+logoutlocation:
+  world: world
+  x: -92.50545085369183
+  y: 69.0
+  z: 175.69999998807907
+  yaw: 3.599985
+  pitch: 23.250002
+lastlocation:
+  world: world
+  x: -96.30000001192093
+  y: 61.200000047683716
+  z: 162.30000001192093
+  yaw: 185.85
+  pitch: -90.0
